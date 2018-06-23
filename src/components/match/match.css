@@ -1,0 +1,61 @@
+.card--match {
+    width: 360px;
+    height: 100%;
+}
+
+.card-content {
+    height: 100%;
+}
+
+.match-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    padding-bottom: 5px;
+}
+
+.match-location {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    padding-top: 10px;
+    border-top: 1px solid;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    height: calc(100% - 46px);
+}
+
+.host-team {
+    text-align: right;
+    flex: 1;
+}
+
+.versus {
+    padding: 0 5px;
+    text-align: center;
+    flex: none;
+}
+
+.away-team {
+    text-align: left;
+    flex: 1;
+}
+
+.match-events {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0.625rem;
+}
+
+.match-event {
+    display: flex;
+    justify-content: space-between;
+}
+
+.away-team .match-event {
+    flex-direction: row-reverse;
+}
